@@ -1,0 +1,16 @@
+2025-07-23 18:31:59 - Request received
+POST data: Array
+(
+    [license_key_id] => 10
+    [activation_limit] => 2
+)
+
+functions.php loaded successfully
+2025-07-23 18:32:27 - Request received
+POST data: Array
+(
+    [license_key_id] => 10
+    [activation_limit] => 2
+)
+
+functions.php loaded successfully

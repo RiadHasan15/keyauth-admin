@@ -1,0 +1,125 @@
+[2025-07-23 03:27:25] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:27:25] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:30:37] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:30:37] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:32:33] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:32:33] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:35:53] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:35:53] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:38:08] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:38:08] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:44:11] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:44:11] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:44:21] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:44:21] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:46:17] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:46:17] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:46:28] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:46:28] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:52:28] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:52:28] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:53:34] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:53:34] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:53:34] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 03:53:34] About to insert HWID log - License Key ID: 4, HWID: , IP: ::1
+[2025-07-23 03:53:45] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:53:45] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:53:45] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 03:53:45] About to insert HWID log - License Key ID: 4, HWID: , IP: ::1
+[2025-07-23 03:55:32] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:55:32] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: ::1
+[2025-07-23 03:55:32] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 03:55:32] About to insert HWID log - License Key ID: 4, HWID: , IP: ::1
+[2025-07-23 03:55:32] Key validated successfully: riad
+[2025-07-23 03:57:00] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 03:57:00] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 03:57:00] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 03:57:00] About to insert HWID log - License Key ID: 4, HWID: , IP: 127.0.0.1
+[2025-07-23 03:57:00] Key validated successfully: riad
+[2025-07-23 04:02:43] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:02:43] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:02:43] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 04:02:43] About to insert HWID log - License Key ID: 4, HWID: , IP: 127.0.0.1
+[2025-07-23 04:02:43] Key validated successfully: riad
+[2025-07-23 04:06:57] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:06:57] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:06:57] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 04:06:57] About to insert HWID log - License Key ID: 4, HWID: , IP: 127.0.0.1
+[2025-07-23 04:06:57] Key validated successfully: riad
+[2025-07-23 04:07:00] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:07:00] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:07:00] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 04:07:00] About to insert HWID log - License Key ID: 4, HWID: , IP: 127.0.0.1
+[2025-07-23 04:07:00] Key validated successfully: riad
+[2025-07-23 04:08:53] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:08:53] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:08:53] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 04:08:53] About to insert HWID log - License Key ID: 4, HWID: , IP: 127.0.0.1
+[2025-07-23 04:08:53] Key validated successfully: riad
+[2025-07-23 04:08:58] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:08:58] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:08:58] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 04:08:58] About to insert HWID log - License Key ID: 4, HWID: , IP: 127.0.0.1
+[2025-07-23 04:08:58] Key validated successfully: riad
+[2025-07-23 04:21:21] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:21:21] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:21:21] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 04:21:21] Key validated successfully: riad
+[2025-07-23 04:22:44] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:22:44] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:22:44] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active"}
+[2025-07-23 04:22:44] Key validated successfully: riad
+[2025-07-23 04:38:00] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:38:00] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:38:00] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 04:38:00] Key validated successfully: riad
+[2025-07-23 04:54:59] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:54:59] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:54:59] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 04:54:59] Key validated successfully: riad
+[2025-07-23 04:55:01] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:55:01] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:55:01] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":null,"banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 04:55:01] Key validated successfully: riad
+[2025-07-23 04:55:51] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 04:55:51] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 04:55:51] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":"2025-07-27","banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 04:55:51] Key validated successfully: riad
+[2025-07-23 06:31:08] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 06:31:08] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 06:31:08] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":"2025-07-27","banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 06:31:08] Key validated successfully: riad
+[2025-07-23 06:31:09] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 06:31:09] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 06:31:09] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":"2025-07-27","banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 06:31:09] Key validated successfully: riad
+[2025-07-23 06:31:14] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 06:31:14] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 06:31:14] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":"2025-07-27","banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 06:31:14] Key validated successfully: riad
+[2025-07-23 06:59:29] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 06:59:29] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 06:59:29] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":"2025-07-27","banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 06:59:29] Key validated successfully: riad
+[2025-07-23 07:48:23] Incoming request: {"app_id":"app","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 07:48:23] Validating - App: app | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 07:48:23] Key data retrieved: {"id":4,"license_key":"riad","app_id":5,"expires_at":"2025-07-27","banned":0,"hwid_banned":0,"hwid":null,"status":"Active","activation_limit":5}
+[2025-07-23 07:48:23] Key validated successfully: riad
+[2025-07-23 16:38:28] Incoming request: {"app_id":"test","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 16:38:28] Validating - App: test | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 16:38:28] Invalid app ID or API token.
+[2025-07-23 16:39:26] Incoming request: {"app_id":"bypass","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"riad"}
+[2025-07-23 16:39:26] Validating - App: bypass | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: riad | HWID:  | IP: 127.0.0.1
+[2025-07-23 16:39:26] Invalid app ID or API token.
+[2025-07-23 16:39:52] Incoming request: {"app_id":"bypass","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"bypass"}
+[2025-07-23 16:39:52] Validating - App: bypass | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: bypass | HWID:  | IP: 127.0.0.1
+[2025-07-23 16:39:52] Invalid app ID or API token.
+[2025-07-23 16:39:53] Incoming request: {"app_id":"bypass","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"bypass"}
+[2025-07-23 16:39:53] Validating - App: bypass | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: bypass | HWID:  | IP: 127.0.0.1
+[2025-07-23 16:39:53] Invalid app ID or API token.
+[2025-07-23 17:03:12] Incoming request: {"app_id":"bypass","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"bypass"}
+[2025-07-23 17:03:12] Validating - App: bypass | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: bypass | HWID:  | IP: 127.0.0.1
+[2025-07-23 17:03:12] Invalid app ID or API token.
+[2025-07-23 17:03:15] Incoming request: {"app_id":"bypass","api_token":"c722aeeebf53420ee6f61228f9414ab1","license_key":"bypass"}
+[2025-07-23 17:03:15] Validating - App: bypass | Token: c722aeeebf53420ee6f61228f9414ab1 | Key: bypass | HWID:  | IP: 127.0.0.1
+[2025-07-23 17:03:15] Invalid app ID or API token.

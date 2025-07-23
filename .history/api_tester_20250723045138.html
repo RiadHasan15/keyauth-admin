@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Key Validator</title>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: Arial;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    pre {
+      background: #f3f3f3;
+      padding: 15px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Validate License Key</h2>
+
+  <input type="text" id="app_id" placeholder="App ID (e.g., app)" />
+  <input type="text" id="api_token" placeholder="API Token" />
+  <input type="text" id="license_key" placeholder="License Key" />
+  <button onclick="validate()">Validate</button>
+
+  <h3>Response:</h3>
+  <pre id="response">No response yet</pre>
+
+  <script>
+    async function validate() {
+      const data = {
+        app_id: document.getElementById("app_id").value,
+        api_token: document.getElementById("api_token").value,
+        license_key: document.getElementById("license_key").value,
+      };
+
+      try {
+        const res = await fetch("http://localhost/keyauth_panel/api/validate_key.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        const json = await res.json();
+        document.getElementById("response").textContent = JSON.stringify(json, null, 2);
+      } catch (err) {
+        document.getElementById("response").textContent = "Error: " + err.message;
+      }
+    }
+  </script>
+</body>
+</html>

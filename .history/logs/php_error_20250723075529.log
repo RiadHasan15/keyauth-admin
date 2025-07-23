@@ -1,0 +1,5 @@
+[23-Jul-2025 03:53:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`keyauth`.`hwid_logs`, CONSTRAINT `hwid_logs_ibfk_2` FOREIGN KEY (`key_id`) REFERENCES `license_keys` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\keyauth_panel\api\validate_key.php:160
+Stack trace:
+#0 C:\xampp\htdocs\keyauth_panel\api\validate_key.php(160): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\keyauth_panel\api\validate_key.php on line 160

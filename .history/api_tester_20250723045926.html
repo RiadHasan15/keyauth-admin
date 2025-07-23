@@ -1,0 +1,49 @@
+<!-- api_tester.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>API Tester</title>
+</head>
+
+<body>
+    <h2>Test License Key API</h2>
+    <form id="api-form">
+        <label>App ID: <input type="text" name="app_id" value="app"></label><br>
+        <label>API Token: <input type="text" name="api_token" value="bc45ba187e90651af6154cb971e9d323"></label><br>
+        <label>License Key: <input type="text" name="license_key" value="riad"></label><br>
+        <button type="submit">Test</button>
+    </form>
+    <pre id="response"></pre>
+
+    <script>
+        const form = document.getElementById('api-form');
+        const responseBox = document.getElementById('response');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const data = {
+                app_id: form.app_id.value,
+                api_token: form.api_token.value,
+                license_key: form.license_key.value
+            };
+
+            const res = await fetch('api/validate_key.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            try {
+                const json = await res.json();
+                responseBox.textContent = JSON.stringify(json, null, 2);
+            } catch (err) {
+                responseBox.textContent = 'Error parsing response:\n' + await res.text();
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>License Key API Tester</title>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        pre {
+            background: #f3f3f3;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>🔐 License Key API Tester</h2>
+
+    <label>App ID:</label>
+    <input id="app_id" value="app">
+
+    <label>API Token:</label>
+    <input id="api_token" value="bc45ba187e90651af6154cb971e9d323">
+
+    <label>License Key:</label>
+    <input id="license_key" value="riad">
+
+    <button onclick="testAPI()">Validate Key</button>
+
+    <pre id="output">Response will appear here...</pre>
+
+    <script>
+        function testAPI() {
+            const app_id = document.getElementById('app_id').value;
+            const api_token = document.getElementById('api_token').value;
+            const license_key = document.getElementById('license_key').value;
+
+            fetch('api/validate_key.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ app_id, api_token, license_key })
+            })
+                .then(res => res.text())
+                .then(text => {
+                    try {
+                        const json = JSON.parse(text);
+                        document.getElementById('output').textContent = JSON.stringify(json, null, 4);
+                    } catch (e) {
+                        document.getElementById('output').textContent = "❌ Invalid JSON:\n\n" + text;
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('output').textContent = "❌ Error:\n\n" + error;
+                });
+        }
+    </script>
+</body>
+
+</html>

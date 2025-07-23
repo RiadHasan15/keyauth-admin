@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KeyAuth API Tester</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>KeyAuth API Tester</h2>
+    <input type="text" id="app_id" placeholder="App ID" value="1">
+    <input type="text" id="api_token" placeholder="API Token" value="82b4283ecde82fdc549a95fd27e79453">
+    <input type="text" id="license_key" placeholder="License Key" value="riad">
+    <button onclick="validateKey()">Validate Key</button>
+    <pre id="response"></pre>
+
+    <script>
+        function validateKey() {
+            const data = {
+                app_id: document.getElementById('app_id').value,
+                api_token: document.getElementById('api_token').value,
+                license_key: document.getElementById('license_key').value
+            };
+
+            fetch('api/validate_key.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+                .then(res => res.json())
+                .then(json => {
+                    document.getElementById('response').textContent = JSON.stringify(json, null, 2);
+                })
+                .catch(err => {
+                    document.getElementById('response').textContent = 'Error: ' + err;
+                });
+        }
+    </script>
+</body>
+
+</html>
